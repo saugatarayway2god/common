@@ -27,6 +27,9 @@ public class ApplicationGlobal {
  public static final String TEXT_TYPE_EVENT_STOP="0";
  public static final String YES="Y";
  public static final String NO="N";
+ public static final String CONSUMER_CHANNEL_TEXT_EVENT_NAME="text_";
+ public static final String CONSUMER_CHANNEL_IMAGE_EVENT_NAME="img_";
+ public static final String CONSUMER_CHANNEL_VIDEO_EVENT_NAME="v_";
  
  public static final int WEBSOCKET_GC_CONNECT_DISCONNECT = 101;
  public static final int REPLY_BACK_TO_ADMIN_COMMAND = 102;
@@ -36,7 +39,9 @@ public class ApplicationGlobal {
  public static final int TEXT_TYPE_EVENT = 106;
  public static final int CHAT_REQUEST_ACCEPTED_EVENT = 106;
  public static final int POST_CHAT_MESSAGE_EVENT = 107;
- 
+ public static final int CONSUMER_TEXT_MESSAGE_EVENT = 108;
+ public static final int CONSUMER_IMAGE_MESSAGE_EVENT = 109;
+ public static final int CONSUMER_VIDEO_MESSAGE_EVENT = 110;
  //General Consumer
  public static final int GENERAL_CONSUMER_TO_PRODUCER_CHANNEL_CONNECT_EVENT = 301;
  public static final int GENERAL_CONSUMER_TO_CONSUMER_CHANNEL_CONNECT_EVENT = 302;
